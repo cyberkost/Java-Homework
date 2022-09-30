@@ -10,14 +10,17 @@ public class Main {
     }
 
     public static void getNum3(int f, long g) {
+
         System.out.println(f / g);
     }
 
     static float getNum4(float f1, float f2, float f3) {
+
         return (f1 + f2) / f3;
     }
 
     public static void getNum5(short s1, short s2, short s3) {
+
         System.out.println((s1 / s2) * s3);
     }
 
@@ -73,7 +76,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        /*
+
         System.out.println(getNum1(scanner.nextInt(), scanner.nextInt()));
 
         System.out.println(getNum2(scanner.nextInt()));
@@ -88,7 +91,7 @@ public class Main {
         int i5 = scanner.nextInt();
         int i6 = scanner.nextInt();
         System.out.println(getNum6(i4, i5, i6));
-*/
+
         System.out.println("Please input first digit....");
         int t = scanner.nextInt();
         System.out.println("Please input second digit....");
