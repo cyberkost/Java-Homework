@@ -4,7 +4,7 @@ public class Main {
     static int getNum1(int a, int b) {
         return a + b;
     }
-
+//sdfsdgdfgdsh
     static int getNum2(int a) {
         return a * 2;
     }
