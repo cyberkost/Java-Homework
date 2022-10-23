@@ -1,4 +1,4 @@
-package Homework10_10_2022;
+package homework10_10_2022;
 
 public class PC {
 

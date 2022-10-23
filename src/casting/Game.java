@@ -1,4 +1,4 @@
-package Casting;
+package casting;
 public class Game {
     public void test() {
         System.out.println("Игра протестирована");

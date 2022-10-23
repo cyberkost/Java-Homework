@@ -1,4 +1,4 @@
-package Homework26_09_2022;
+package homework26_09_2022;
 
 public class Main {
 

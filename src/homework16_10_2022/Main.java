@@ -1,4 +1,4 @@
-package Homework16_10_2022;
+package homework16_10_2022;
 
 import java.util.Arrays;
 import java.util.Random;

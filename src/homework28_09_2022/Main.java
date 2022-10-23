@@ -1,4 +1,4 @@
-package Homework28_09_2022;
+package homework28_09_2022;
 
 import java.util.Scanner;
 
