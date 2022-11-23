@@ -1,14 +1,11 @@
 package homework10_10_2022;
 
 public class PC {
-
     private int processor;
     private int memory;
     private int powerSupply;
     private boolean backLight;
-
     private VideoCard videoCard;
-
     public PC (int processor, int memory, int powerSupply, boolean backLight){
         this.processor = processor;
         this.memory = memory;
@@ -28,7 +25,6 @@ public class PC {
     public boolean setBackLight() {
         return backLight;
     }
-
     @Override
     public String toString() {
         return "PC{" +
@@ -40,7 +36,6 @@ public class PC {
                 '}';
     }
 }
-
 class Main1 {
     public static void main(String[] args) {
         PC newPC = new PC(10, 16, 5, false);
