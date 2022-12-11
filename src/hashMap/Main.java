@@ -37,17 +37,17 @@ public class Main {
         capitalCountry.put(country8.country, city8.city);
         capitalCountry.put(country9.country, city9.city);
         capitalCountry.put(country10.country, city10.city);
-        System.out.println("All country and cities ----------------------------------------");
+        System.out.println("All country and cities ---------------------------------------------");
         System.out.println(capitalCountry);
-        System.out.println("Get city for Key ----------------------------------------------");
+        System.out.println("Get city for Key ---------------------------------------------------");
         System.out.println(capitalCountry.get("Russia"));
-        System.out.println("How many countries ----------------------------------------------");
+        System.out.println("How many countries -------------------------------------------------");
         System.out.println(capitalCountry.size());
-        System.out.println("Key Loop FOR ---------------------------------------------------");
+        System.out.println("Key Loop FOR -------------------------------------------------------");
         for (String i : capitalCountry.keySet()) {
             System.out.println("Countries: " + i);
         }
-        System.out.println("Values Loop FOR -------------------------------------------------");
+        System.out.println("Values Loop FOR ----------------------------------------------------");
         for (String i : capitalCountry.values()) {
             System.out.println("Cities: " + i);
         }
@@ -55,9 +55,10 @@ public class Main {
         for (String i : capitalCountry.keySet()) {
             System.out.println("Country: " + i + " - City: " + capitalCountry.get(i));
         }
-        System.out.println("Remove for Key -------------------------------------------------");
+        System.out.println("Remove for Key -----------------------------------------------------");
         capitalCountry.remove("France");
         System.out.println(capitalCountry);
+
     }
 }
 
