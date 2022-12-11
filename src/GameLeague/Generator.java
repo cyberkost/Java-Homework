@@ -1,8 +1,7 @@
-package homework_12_02_2022;
+package GameLeague;
 
 import com.github.javafaker.Faker;
 
-import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 

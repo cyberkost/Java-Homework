@@ -1,13 +1,16 @@
-package homework_12_02_2022;
+package GameLeague;
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 
 public class Game {
     public static void printPlayers(List<Player> players) {
         for (Player player : players) {
-            System.out.println(String.format("Player name: %s, year: %s, Scores: %s, League: %s", player.getName(), player.getAge(), player.getScores(), player.league));
+            System.out.println(String.format(
+                    "Player name: %s, year: %s, Scores: %s, League: %s",
+                    player.getName(), player.getAge(), player.getScores(), player.league));
         }
     }
 
@@ -37,5 +40,9 @@ public class Game {
         if (Math.random() > 0.5)
             p2.addScores(1);
         else p1.addScores(1);
+    }
+
+    public void movePlayersBetweenLeague(Map<League, List<Player>> map) {
+
     }
 }

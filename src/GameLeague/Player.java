@@ -1,4 +1,4 @@
-package homework_12_02_2022;
+package GameLeague;
 
 import java.util.UUID;
 
