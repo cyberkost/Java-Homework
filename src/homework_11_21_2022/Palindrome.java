@@ -1,28 +1,35 @@
 package homework_11_21_2022;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
 import java.util.ListIterator;
 
 public class Palindrome {
     public static void main(String[] args) {
-        String s = "мотор";
-        List<Character> characters = new ArrayList<>();
-        for (int i = 0; i < s.length(); i++) {
-            characters.add(s.charAt(i));
+        System.out.println(palindrome("dom"));
+        System.out.println(palindrome("Madam"));
+        System.out.println(palindrome("mama"));
+        System.out.println(palindrome("moom"));
+    }
+
+    public static boolean palindrome(String str) {
+        String s = str.toLowerCase();
+        char[] charsArray = s.toCharArray();
+        LinkedList<Character> linkedList = new LinkedList<>();
+        LinkedList<Character> linkedListCopy = new LinkedList<>();
+        for (char charAr: charsArray) {
+            linkedList.add(charAr);
+            linkedListCopy.add(charAr);
         }
-        ListIterator<Character> listIterator = characters.listIterator();
-        ListIterator<Character> listReverse = characters.listIterator(characters.size());
-        //System.out.println(listIterator.hasNext());
-        //System.out.println(listReverse.hasPrevious());
-        while (listIterator.hasNext() && listReverse.hasPrevious()) {
-            if (listIterator.next().equals (listIterator.previous())) {
-                System.out.println("True");
-            } else {
-                System.out.println("False");
+
+        ListIterator<Character> iteratorNext = linkedList.listIterator();
+        ListIterator<Character> iteratorPrevious = linkedListCopy.listIterator(charsArray.length);
+
+        for (int i = 0; i < linkedList.size() / 2; i++) {
+            if (iteratorNext.next() != iteratorPrevious.previous()){
+                return false;
             }
-            break;
         }
+        return true;
     }
 }
 
