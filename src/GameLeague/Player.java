@@ -6,7 +6,7 @@ public class Player {
     private UUID id;
     private String name;
     private int age;
-    League league;
+    private League league;
     private int scores = 0;
 
     public Player(UUID id, String name, int age, League league) {

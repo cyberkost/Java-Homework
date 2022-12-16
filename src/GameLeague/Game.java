@@ -10,7 +10,7 @@ public class Game {
         for (Player player : players) {
             System.out.println(String.format(
                     "Player name: %s, year: %s, Scores: %s, League: %s",
-                    player.getName(), player.getAge(), player.getScores(), player.league));
+                    player.getName(), player.getAge(), player.getScores(), player.getLeague()));
         }
     }
 
