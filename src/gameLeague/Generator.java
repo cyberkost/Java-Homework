@@ -1,4 +1,4 @@
-package GameLeague;
+package gameLeague;
 
 import com.github.javafaker.Faker;
 

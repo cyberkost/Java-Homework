@@ -1,4 +1,4 @@
-package EnumExample;
+package enumExample;
 
 public enum Week {
     MONDAY("bad"),

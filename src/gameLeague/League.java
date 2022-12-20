@@ -1,4 +1,4 @@
-package GameLeague;
+package gameLeague;
 
 public enum League {
     SECOND,

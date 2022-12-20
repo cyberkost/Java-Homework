@@ -1,4 +1,4 @@
-package GameLeague;
+package gameLeague;
 
 import java.util.ArrayList;
 import java.util.List;

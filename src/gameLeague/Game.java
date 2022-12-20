@@ -1,4 +1,4 @@
-package GameLeague;
+package gameLeague;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -43,6 +43,6 @@ public class Game {
     }
 
     public void movePlayersBetweenLeague(Map<League, List<Player>> map) {
-
+        /////////// ДОПИСАТЬ МЕТОД ///////////////
     }
 }

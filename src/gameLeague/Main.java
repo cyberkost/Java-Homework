@@ -1,4 +1,4 @@
-package GameLeague;
+package gameLeague;
 
 import java.util.HashMap;
 import java.util.List;
